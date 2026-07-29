@@ -5,4 +5,52 @@
 body {
     margin: 0;
     font-family: "Lato", sans-serif;
+    background-color: var(--color-white);
+}
+
+.container {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.logo {
+    width: 80px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inherit;
+    background-color: var(--color-light-green);
+    color: var(--color-white);
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.btn:focus-visible,
+.btn:hover {
+    outline: 2px solid var(--color-dark-green);
+    cursor: pointer;
+}
+
+.btn--signin {
+    background-color: transparent;
+    color: var(--color-black);
 }
