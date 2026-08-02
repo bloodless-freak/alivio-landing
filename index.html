@@ -33,6 +33,7 @@
                         <li class="header__nav-item">
                             <a href="#product-id" class="header__nav-link">Community</a>
                         </li>
+                    </ul>
                 </nav>
 
                 <div class="header__actions">
@@ -42,6 +43,36 @@
             </div>
         </div>
     </header>
+
+    <div class="mobile-nav">
+        <label for="menu-toggler-id">
+            <svg class="mobile-nav__burger">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" name="toggler" id="menu-toggler-id" class="mobile-nav__menu-toggler">
+
+        <nav class="mobile-nav__menu">
+            <ul class="mobile-nav__list">
+                <li class="mobile-nav__item">
+                    <a href="#about-id" class="mobile__nav-link">Why Alivio</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="#success-id" class="mobile__nav-link">Solutions</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="#product-id" class="mobile__nav-link">Community</a>
+                </li>
+            </ul>
+
+            <label for="menu-toggler-id">
+                <svg class="mobile-nav__cross">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
 
     <main>
         <section class="hero">
@@ -59,7 +90,9 @@
             <div class="container">
                 <div class="about__content">
                     <h2 class="about__title">Understand & Release the stress in 3 steps</h2>
-                    <p class="about__description">Alivio offers as many journals it takes, tackling different areas such as anxiety overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+                    <p class="about__description">Alivio offers as many journals it takes, tackling different areas such
+                        as anxiety overwhelmedness, sadness, or anger, and a variety of personal causes, to help you
+                        become aware of your emotions, and guide you in how to manage stress.</p>
                 </div>
 
                 <div class="about__cards">
@@ -118,7 +151,8 @@
                     <div class="product__content">
                         <h4 class="product__info">Our product</h4>
                         <h5 class="product__title">You tell us your stress, We make your diary</h5>
-                        <p class="product__description">Everyone experiences it, and in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                        <p class="product__description">Everyone experiences it, and in different ways. Let Alivio guide
+                            you, in a personalized journal experience, to overcome your stress.</p>
                         <button class="btn">Find Your Way</button>
                     </div>
 
