@@ -10,7 +10,7 @@
     padding: 0 15px;
 }
 
-.about__content__title {
+.about__title {
     position: relative;
     max-width: 500px;
     font-weight: 700;
@@ -18,7 +18,7 @@
     color: var(--color-light-green);
 }
 
-.about__content__title::before {
+.about__title::before {
     position: absolute;
     top: -35px;
     left: 0;
@@ -28,7 +28,7 @@
     color: var(--color-light-black);
 }
 
-.about__content__description {
+.about__description {
     max-width: 670px;
     font-weight: 500;
     font-size: 20px;
@@ -70,11 +70,11 @@
         gap: 90px;
     }
 
-    .about__content__title {
+    .about__title {
         font-size: 35px;
     }
 
-    .about__content__description {
+    .about__description {
         font-size: 16px;
     }
 }

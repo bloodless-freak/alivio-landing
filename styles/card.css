@@ -29,15 +29,15 @@
     opacity: .3;
 }
 
-.card__title-second {
+.card__title--second {
     text-align: end;
 }
 
-.card__title-second::before {
+.card__title--second::before {
     content: "02";
 }
 
-.card__title-third::before {
+.card__title--third::before {
     content: "03";
 }
 
