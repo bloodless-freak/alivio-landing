@@ -1,0 +1,32 @@
+.footer {
+    background-color: var(--color-dark-green);
+    padding: 95px 0 144px;
+}
+
+.footer__content {
+    padding: 0 0 0 50px;
+    color: var(--color-white);
+}
+
+.footer__title {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.footer__navigation {
+    margin: 65px 0 0 0; 
+
+}
+
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 60px;
+}
+
+.footer__nav-link {
+    font-weight: 600;
+    font-size: 25px;
+}
